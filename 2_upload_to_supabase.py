@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # --- CONFIG ---
-POSTGRES_URL = "postgresql://postgres:#8S8NUP3FZ*MztS@db.gvvzylsyumunjpxiqyui.supabase.co:5432/postgres"
+POSTGRES_URL = "YOUR_POSTGRES_URL"
 
 # --- LOAD CSV ---
 df = pd.read_csv("beneficiaries.csv")
