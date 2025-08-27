@@ -3,11 +3,11 @@ from sqlalchemy import create_engine
 import requests
 
 # --- CONFIG ---
-POSTGRES_URL = "postgresql://postgres:#8S8NUP3FZ*MztS@db.gvvzylsyumunjpxiqyui.supabase.co:5432/postgres"
+POSTGRES_URL = "YOUR_POSTGRES_URL"
 
-AIRTABLE_BASE_ID = "appEoUxfn1g6zSX7t"  # Replace with your base ID
+AIRTABLE_BASE_ID = "YOUR_AIRTABLE_BASE_ID"  # Replace with your base ID
 AIRTABLE_TABLE = "Beneficiaries"
-AIRTABLE_TOKEN = "paton3VX1dXDlPQl3.28f17a8a52b26291d184d51e653fb9a5d856f57908e53aeb4e33de18d25aa5b0"   # Replace with your token
+AIRTABLE_TOKEN = "YOUR_AIRTABLE_TOKEN"   # Replace with your token
 
 # --- GET FILTERED ROWS ---
 engine = create_engine(POSTGRES_URL)
